@@ -290,5 +290,5 @@ func (m *EniDevicePlugin) Serve(resourceName string) error {
 }
 
 func (m *EniDevicePlugin) GetPreferredAllocation(ctx context.Context, request *pluginapi.PreferredAllocationRequest) (*pluginapi.PreferredAllocationResponse, error) {
-	panic("GetPreferredAllocation not implemented")
+	panic("implement me")
 }
