@@ -11,10 +11,13 @@ replace (
 )
 
 require (
+	github.com/Microsoft/go-winio v0.4.15 // indirect
+	github.com/alexflint/go-filemutex v1.1.0 // indirect
 	github.com/boltdb/bolt v1.3.1
 	github.com/containerd/containerd v1.4.3 // indirect
 	github.com/containernetworking/cni v0.6.0
 	github.com/containernetworking/plugins v0.7.5
+	github.com/coreos/go-iptables v0.4.5 // indirect
 	github.com/denverdino/aliyungo v0.0.0-20201203064902-695c04c361ee
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v1.13.1
